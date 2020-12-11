@@ -19,4 +19,4 @@ math-series/
     ├── __init__.py
     └── test_math_series.py
 
-## [white board](../../assets/whiteboard.png)
+## [white board](../assets/whiteboard.png)
