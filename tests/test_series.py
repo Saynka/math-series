@@ -38,16 +38,16 @@ def test_threel():
 # sum-series
 
 def test_ones():
-    actual = sum_series(0)
-    expected = 0
+    actual = sum_series(0, 2, 1)
+    expected = 2
     assert actual == expected
 
 def test_twos():
-    actual = sum_series(2)
-    expected = 1
+    actual = sum_series(0, 3)
+    expected = 3
     assert actual == expected
 
 def test_threes():
-    actual = sum_series(5)
-    expected = 5
+    actual = sum_series(3, 3, 2)
+    expected = 7
     assert actual == expected
